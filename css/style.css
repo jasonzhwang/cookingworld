@@ -1,0 +1,55 @@
+/* top nav bar */
+.top-navbar .glyphicon{
+    color: #FF5722;
+}
+/* homepage */
+#homeCarousel img {
+    width: 100%;
+    height: 30em;
+    object-fit: cover;
+}
+img.brand-sm {
+    width: 2%;
+}
+.recipe-cards h3.title-head {
+    color: #FF5722;
+    padding: 5px 10px 7px;
+    text-transform: Capitalize;
+    font-size: 22px;
+
+}
+.recipe-cards header {
+    border-bottom: 1px solid #FF5722;
+    margin-bottom: 1em;
+}
+.recipe-card {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.recipe-card:hover {
+    border: 1px solid #dd0000;
+    border-radius: 10px;
+}
+.recipe-card img {
+    width: 100%;
+}
+.recipe-card a {
+    color: #0f0f0f;
+}
+.recipe-card h4 {
+    font-family: "Merriweather",serif;
+    font-weight: bold;
+}
+.recipe-card a:hover {
+    color: #FF5722;
+    text-decoration: none;
+}
+.recipe-card a.username {
+    color: #2aabd2;
+}
+.recipe-card div.introduction{
+    word-wrap: break-word;
+    width: 95%;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+}
